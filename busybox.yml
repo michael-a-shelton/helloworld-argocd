@@ -12,7 +12,7 @@ spec:
     name: busybox
     args:
     - sleep
-    - "1000000"
+    - "100000"
     resources: {}
   dnsPolicy: ClusterFirst
   restartPolicy: Always
