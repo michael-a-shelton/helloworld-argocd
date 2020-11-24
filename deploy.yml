@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     app: helloworld
+    new: label
   name: helloworld
   namespace: helloworld
 spec:
