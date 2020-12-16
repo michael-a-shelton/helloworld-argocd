@@ -5,7 +5,9 @@ metadata:
   labels:
     app: helloworld
     app.kubernetes.io/instance: helloworld
+    new: label
   name: helloworld
+  namespace: helloworld
 spec:
   ports:
   - port: 80
